@@ -3,287 +3,112 @@
 <p align="center">
 
 ![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco)
-![CCNA](https://img.shields.io/badge/CCNA-Networking-blue?style=for-the-badge)
+![CCNA](https://img.shields.io/badge/CCNA-Labs-blue?style=for-the-badge)
+![Networking](https://img.shields.io/badge/Networking-Cisco-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 </p>
 
-<p align="center">
-A comprehensive collection of <b>Cisco Packet Tracer</b> networking labs and projects covering routing, switching, VLANs, ACLs, DHCP, DNS, NAT, wireless networking, and enterprise network design.
-</p>
+---
+
+## 📖 About
+
+This repository contains **Cisco Packet Tracer (.pkt)** lab exercises covering essential **CCNA networking concepts**. These labs are designed to help students and networking enthusiasts gain hands-on experience with routing, switching, VLANs, NAT, SNMP, Syslog, and other networking technologies.
 
 ---
 
-# 📖 Table of Contents
+# 🚀 Lab Files
 
-- About
-- Features
-- Technologies Used
-- Lab Categories
-- Project Structure
-- Requirements
-- Installation
-- Network Topologies
-- Skills Covered
-- Learning Outcomes
-- Future Enhancements
-- Author
-- License
+| Lab | Description |
+|------|-------------|
+| 📁 Day 16 Lab - VLANs Part 1 | VLAN Creation & Configuration |
+| 📁 Day 17 Lab - VLANs Part 2 | Advanced VLAN Configuration |
+| 📁 Day 23 Lab - EtherChannel | EtherChannel using LACP/PAgP |
+| 📁 Day 40 Lab - SNMP | Simple Network Management Protocol |
+| 📁 Day 41 Lab - Syslog | Centralized Logging using Syslog |
+| 📁 Dynamic NAT | Dynamic Network Address Translation |
+| 📁 Static NAT | Static Network Address Translation |
 
 ---
 
-# 📌 About
+# 📚 Topics Covered
 
-This repository contains practical **Cisco Packet Tracer (.pkt)** labs designed for beginners, students, and networking enthusiasts preparing for **CCNA**, networking interviews, and college projects.
-
-Each lab focuses on real-world networking concepts and helps users understand how enterprise networks are designed and configured.
-
----
-
-# 🚀 Features
-
-- Cisco Packet Tracer Labs
-- CCNA Practical Exercises
-- Enterprise Network Design
-- Routing & Switching
 - VLAN Configuration
-- Inter-VLAN Routing
-- Static & Dynamic Routing
-- OSPF
-- RIP
-- EIGRP
-- ACL Configuration
-- NAT & PAT
-- DHCP Server
-- DNS Server
-- Wireless Networking
-- Network Security
+- VLAN Trunking
+- Inter-VLAN Communication
+- EtherChannel
+- Static NAT
+- Dynamic NAT
+- SNMP
+- Syslog
+- Router Configuration
+- Switch Configuration
 - IP Addressing
-- Subnetting Practice
-- Troubleshooting Labs
+- Network Troubleshooting
 
 ---
 
-# 🛠 Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| Cisco Packet Tracer | Network Simulation |
-| Cisco IOS | Router & Switch Configuration |
-| TCP/IP | Communication |
-| IPv4 | Addressing |
-| VLAN | Network Segmentation |
-| OSPF | Dynamic Routing |
-| RIP | Routing |
-| EIGRP | Advanced Routing |
-| ACL | Security |
-| NAT | Address Translation |
-| DHCP | Automatic IP Assignment |
-| DNS | Name Resolution |
-
----
-
-# 📂 Project Structure
-
-```text
-Cisco-Packet-Tracer-Networking-Labs/
-
-│
-├── Beginner-Labs/
-│   ├── PC-to-PC Communication
-│   ├── Switch Configuration
-│   ├── Static IP Configuration
-│   ├── DHCP
-│   └── DNS
-│
-├── Intermediate-Labs/
-│   ├── VLAN
-│   ├── Inter-VLAN Routing
-│   ├── Static Routing
-│   ├── RIP
-│   ├── OSPF
-│   ├── EIGRP
-│   ├── ACL
-│   ├── NAT
-│   └── Wireless
-│
-├── Advanced-Labs/
-│   ├── Enterprise Network
-│   ├── College Network
-│   ├── Hospital Network
-│   ├── Bank Network
-│   ├── Office Network
-│   ├── Data Center
-│   └── Smart City
-│
-├── Documentation/
-│
-├── Images/
-│
-├── README.md
-└── LICENSE
-```
-
----
-
-# 💻 Lab Categories
-
-## 🟢 Beginner
-
-- PC to PC Communication
-- Hub and Switch
-- Static IP Address
-- DHCP Configuration
-- DNS Server
-- Basic Router Configuration
-
----
-
-## 🟡 Intermediate
-
-- VLAN
-- Trunking
-- Router-on-a-Stick
-- Static Routing
-- RIP
-- OSPF
-- EIGRP
-- NAT
-- PAT
-- ACL
-- Port Security
-
----
-
-## 🔴 Advanced
-
-- Enterprise Network
-- College Campus
-- Hospital Network
-- Bank Network
-- ISP Network
-- Data Center
-- VPN
-- Wireless LAN
-- Firewall Implementation
-- Redundant Network Design
-
----
-
-# 🌐 Network Devices
-
-- Routers
-- Layer 2 Switches
-- Layer 3 Switches
-- PCs
-- Servers
-- Wireless Routers
-- Access Points
-- Firewalls
-- Cloud
-- Printers
-
----
-
-# 📡 Networking Protocols
-
-- TCP/IP
-- IPv4
-- ICMP
-- ARP
-- DHCP
-- DNS
-- HTTP
-- HTTPS
-- FTP
-- SSH
-- Telnet
-- RIP
-- OSPF
-- EIGRP
-- STP
-- VLAN
-- NAT
-- PAT
-
----
-
-# 📋 Requirements
+# 🛠 Software Required
 
 - Cisco Packet Tracer 8.x or later
 - Windows / Linux / macOS
-- Basic Networking Knowledge
-- CCNA Fundamentals (Recommended)
 
 ---
 
-# ▶ Installation
+# 📂 Repository Structure
 
-### Clone Repository
-
-```bash
-git clone https://github.com/sarkalekartik/Cisco-Packet-Tracer-Networking-Labs.git
+```text
+Cisco-Packet-Tracer-Labs/
+│
+├── Day 16 Lab - VLANs Part 1.pkt
+├── Day 17 Lab - VLANs Part 2.pkt
+├── Day 23 Lab - EtherChannel.pkt
+├── Day 40 Lab - SNMP.pkt
+├── Day 41 Lab - Syslog.pkt
+├── Dynamic NAT.pkt
+├── Static NAT.pkt
+└── README.md
 ```
-
-### Open Project
-
-```bash
-cd Cisco-Packet-Tracer-Networking-Labs
-```
-
-### Run
-
-Open any **.pkt** file using Cisco Packet Tracer.
 
 ---
 
-# 🎯 Skills Covered
+# 🎯 Learning Outcomes
 
+After completing these labs, you will be able to:
+
+- Configure VLANs
+- Configure EtherChannel
+- Configure Static NAT
+- Configure Dynamic NAT
+- Configure SNMP
+- Configure Syslog
+- Troubleshoot Cisco Networks
+- Understand Enterprise Networking Concepts
+
+---
+
+# 💡 Skills
+
+- Cisco IOS
 - Routing
 - Switching
 - VLAN
-- ACL
 - NAT
-- DHCP
-- DNS
-- Wireless Networking
-- IP Addressing
-- Subnetting
-- Troubleshooting
-- Enterprise Design
+- SNMP
+- Syslog
+- TCP/IP
+- IPv4
+- Network Administration
 
 ---
 
-# 📚 Learning Outcomes
+# 🎓 Ideal For
 
-After completing these labs, you will understand:
-
-- Computer Networks
-- Cisco Router Configuration
-- Cisco Switch Configuration
-- Enterprise Network Design
-- Network Troubleshooting
-- CCNA Concepts
-- Routing Protocols
-- Switching Concepts
-- Security Fundamentals
-
----
-
-# 🔮 Future Enhancements
-
-- IPv6 Labs
-- BGP Configuration
-- MPLS
-- QoS
-- SD-WAN
-- Cisco ASA Firewall
-- Cisco ISE
-- Cisco DNA Center
-- Cloud Networking
-- AWS Networking
-- Azure Networking
+- CCNA Students
+- Computer Engineering Students
+- Networking Beginners
+- Cisco Packet Tracer Practice
+- College Lab Assignments
 
 ---
 
@@ -291,10 +116,10 @@ After completing these labs, you will understand:
 
 **Kartik Sarkale**
 
-- 🚀 Full-Stack Developer
 - 🌐 Networking Enthusiast
 - 🛡️ Cybersecurity Learner
 - 🤖 AI & Machine Learning Enthusiast
+- 💻 Full-Stack Developer
 
 📧 Email: **sarkalekartik42@gmail.com**
 
@@ -302,21 +127,9 @@ After completing these labs, you will understand:
 
 ---
 
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork this repository
-2. Create a new branch
-3. Commit your changes
-4. Push your branch
-5. Open a Pull Request
-
----
-
 # ⭐ Support
 
-If this repository helped you learn networking, please consider giving it a **⭐ Star** on GitHub.
+If these labs helped you, please consider giving this repository a **⭐ Star**.
 
 ---
 
@@ -327,9 +140,5 @@ This project is licensed under the **MIT License**.
 ---
 
 <p align="center">
-
-**Made with ❤️ by Kartik Sarkale**
-
-🌐 Happy Networking 🚀
-
+Made with ❤️ by <b>Kartik Sarkale</b>
 </p>
