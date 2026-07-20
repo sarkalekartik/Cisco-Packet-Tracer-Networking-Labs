@@ -13,6 +13,11 @@ Practice networking concepts using Cisco Packet Tracer.
 
 </div>
 
+
+<img width="947" height="494" alt="image" src="https://github.com/user-attachments/assets/b1fd1314-97db-4302-b555-57bec14ec91f" />
+
+![Uploading image.png…]()
+
 ---
 
 # 📖 About
